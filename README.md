@@ -4,7 +4,7 @@ This directory contains all experimental data used in ``Funtional network infere
 
 - One folder contains trajectories and location coordinates for cells which could be continuously tracked throughout all conditions (full_time_trajectories)
 - One folder contains trajectories, location coordinates for all cells which could be tracked during the TTX washout time period (ttx_wash_trajectories)
-- raw_mic_scores contains pairwise MIC scores for cells within each SCN. The MIC of a pair of cells cell1,cell2 is found in the matrix at [cell1, cell2] (or equivalently [cell2,cell1] since MIC is symmetric)
+- raw_mic_scores contains pairwise MIC scores for cells within each SCN. The MIC of a pair of cells cell1,cell2 is found in the matrix at (cell1, cell2) (or equivalently (cell2,cell1) since MIC is symmetric)
 
 Within these files, each cell is in a column, with each 1h sample as an entry within that column. Locations match cells. MIC scores are presented as an adjacency matrix.
 
